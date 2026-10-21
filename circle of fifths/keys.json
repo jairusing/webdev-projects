@@ -1,0 +1,183 @@
+
+[
+  {
+    "name": "C Major",
+    "key": "C",
+    "signature": "No sharps or flats",
+    "notes": ["C", "D", "E", "F", "G", "A", "B"],
+    "chords": [
+      {"name": "C", "quality": "Major", "notes": ["C", "E", "G"]},
+      {"name": "Dm", "quality": "Minor", "notes": ["D", "F", "A"]},
+      {"name": "Em", "quality": "Minor", "notes": ["E", "G", "B"]},
+      {"name": "F", "quality": "Major", "notes": ["F", "A", "C"]},
+      {"name": "G", "quality": "Major", "notes": ["G", "B", "D"]},
+      {"name": "Am", "quality": "Minor", "notes": ["A", "C", "E"]},
+      {"name": "Bdim", "quality": "Diminished", "notes": ["B", "D", "F"]}
+    ]
+  },
+  {
+    "name": "G Major",
+    "key": "G",
+    "signature": "1 sharp (F♯)",
+    "notes": ["G", "A", "B", "C", "D", "E", "F♯"],
+    "chords": [
+      {"name": "G", "quality": "Major", "notes": ["G", "B", "D"]},
+      {"name": "Am", "quality": "Minor", "notes": ["A", "C", "E"]},
+      {"name": "Bm", "quality": "Minor", "notes": ["B", "D", "F♯"]},
+      {"name": "C", "quality": "Major", "notes": ["C", "E", "G"]},
+      {"name": "D", "quality": "Major", "notes": ["D", "F♯", "A"]},
+      {"name": "Em", "quality": "Minor", "notes": ["E", "G", "B"]},
+      {"name": "F♯dim", "quality": "Diminished", "notes": ["F♯", "A", "C"]}
+    ]
+  },
+  {
+    "name": "D Major",
+    "key": "D",
+    "signature": "2 sharps (F♯, C♯)",
+    "notes": ["D", "E", "F♯", "G", "A", "B", "C♯"],
+    "chords": [
+      {"name": "D", "quality": "Major", "notes": ["D", "F♯", "A"]},
+      {"name": "Em", "quality": "Minor", "notes": ["E", "G", "B"]},
+      {"name": "F♯m", "quality": "Minor", "notes": ["F♯", "A", "C♯"]},
+      {"name": "G", "quality": "Major", "notes": ["G", "B", "D"]},
+      {"name": "A", "quality": "Major", "notes": ["A", "C♯", "E"]},
+      {"name": "Bm", "quality": "Minor", "notes": ["B", "D", "F♯"]},
+      {"name": "C♯dim", "quality": "Diminished", "notes": ["C♯", "E", "G"]}
+    ]
+  },
+  {
+    "name": "A Major",
+    "key": "A",
+    "signature": "3 sharps (F♯, C♯, G♯)",
+    "notes": ["A", "B", "C♯", "D", "E", "F♯", "G♯"],
+    "chords": [
+      {"name": "A", "quality": "Major", "notes": ["A", "C♯", "E"]},
+      {"name": "Bm", "quality": "Minor", "notes": ["B", "D", "F♯"]},
+      {"name": "C♯m", "quality": "Minor", "notes": ["C♯", "E", "G♯"]},
+      {"name": "D", "quality": "Major", "notes": ["D", "F♯", "A"]},
+      {"name": "E", "quality": "Major", "notes": ["E", "G♯", "B"]},
+      {"name": "F♯m", "quality": "Minor", "notes": ["F♯", "A", "C♯"]},
+      {"name": "G♯dim", "quality": "Diminished", "notes": ["G♯", "B", "D"]}
+    ]
+  },
+  {
+    "name": "E Major",
+    "key": "E",
+    "signature": "4 sharps (F♯, C♯, G♯, D♯)",
+    "notes": ["E", "F♯", "G♯", "A", "B", "C♯", "D♯"],
+    "chords": [
+      {"name": "E", "quality": "Major", "notes": ["E", "G♯", "B"]},
+      {"name": "F♯m", "quality": "Minor", "notes": ["F♯", "A", "C♯"]},
+      {"name": "G♯m", "quality": "Minor", "notes": ["G♯", "B", "D♯"]},
+      {"name": "A", "quality": "Major", "notes": ["A", "C♯", "E"]},
+      {"name": "B", "quality": "Major", "notes": ["B", "D♯", "F♯"]},
+      {"name": "C♯m", "quality": "Minor", "notes": ["C♯", "E", "G♯"]},
+      {"name": "D♯dim", "quality": "Diminished", "notes": ["D♯", "F♯", "A"]}
+    ]
+  },
+  {
+    "name": "B Major",
+    "key": "B",
+    "signature": "5 sharps (F♯, C♯, G♯, D♯, A♯)",
+    "notes": ["B", "C♯", "D♯", "E", "F♯", "G♯", "A♯"],
+    "chords": [
+      {"name": "B", "quality": "Major", "notes": ["B", "D♯", "F♯"]},
+      {"name": "C♯m", "quality": "Minor", "notes": ["C♯", "E", "G♯"]},
+      {"name": "D♯m", "quality": "Minor", "notes": ["D♯", "F♯", "A♯"]},
+      {"name": "E", "quality": "Major", "notes": ["E", "G♯", "B"]},
+      {"name": "F♯", "quality": "Major", "notes": ["F♯", "A♯", "C♯"]},
+      {"name": "G♯m", "quality": "Minor", "notes": ["G♯", "B", "D♯"]},
+      {"name": "A♯dim", "quality": "Diminished", "notes": ["A♯", "C♯", "E"]}
+    ]
+  },
+  {
+    "name": "F♯ Major",
+    "key": "F♯",
+    "signature": "6 sharps (F♯, C♯, G♯, D♯, A♯, E♯)",
+    "notes": ["F♯", "G♯", "A♯", "B", "C♯", "D♯", "E♯"],
+    "chords": [
+      {"name": "F♯", "quality": "Major", "notes": ["F♯", "A♯", "C♯"]},
+      {"name": "G♯m", "quality": "Minor", "notes": ["G♯", "B", "D♯"]},
+      {"name": "A♯m", "quality": "Minor", "notes": ["A♯", "C♯", "E♯"]},
+      {"name": "B", "quality": "Major", "notes": ["B", "D♯", "F♯"]},
+      {"name": "C♯", "quality": "Major", "notes": ["C♯", "E♯", "G♯"]},
+      {"name": "D♯m", "quality": "Minor", "notes": ["D♯", "F♯", "A♯"]},
+      {"name": "E♯dim", "quality": "Diminished", "notes": ["E♯", "G♯", "B"]}
+    ]
+  },
+  {
+    "name": "D♭ Major",
+    "key": "D♭",
+    "signature": "5 flats (B♭, E♭, A♭, D♭, G♭)",
+    "notes": ["D♭", "E♭", "F", "G♭", "A♭", "B♭", "C"],
+    "chords": [
+      {"name": "D♭", "quality": "Major", "notes": ["D♭", "F", "A♭"]},
+      {"name": "E♭m", "quality": "Minor", "notes": ["E♭", "G♭", "B♭"]},
+      {"name": "Fm", "quality": "Minor", "notes": ["F", "A♭", "C"]},
+      {"name": "G♭", "quality": "Major", "notes": ["G♭", "B♭", "D♭"]},
+      {"name": "A♭", "quality": "Major", "notes": ["A♭", "C", "E♭"]},
+      {"name": "B♭m", "quality": "Minor", "notes": ["B♭", "D♭", "F"]},
+      {"name": "Cdim", "quality": "Diminished", "notes": ["C", "E♭", "G♭"]}
+    ]
+  },
+  {
+    "name": "A♭ Major",
+    "key": "A♭",
+    "signature": "4 flats (B♭, E♭, A♭, D♭)",
+    "notes": ["A♭", "B♭", "C", "D♭", "E♭", "F", "G"],
+    "chords": [
+      {"name": "A♭", "quality": "Major", "notes": ["A♭", "C", "E♭"]},
+      {"name": "B♭m", "quality": "Minor", "notes": ["B♭", "D♭", "F"]},
+      {"name": "Cm", "quality": "Minor", "notes": ["C", "E♭", "G"]},
+      {"name": "D♭", "quality": "Major", "notes": ["D♭", "F", "A♭"]},
+      {"name": "E♭", "quality": "Major", "notes": ["E♭", "G", "B♭"]},
+      {"name": "Fm", "quality": "Minor", "notes": ["F", "A♭", "C"]},
+      {"name": "Gdim", "quality": "Diminished", "notes": ["G", "B♭", "D♭"]}
+    ]
+  },
+  {
+    "name": "E♭ Major",
+    "key": "E♭",
+    "signature": "3 flats (B♭, E♭, A♭)",
+    "notes": ["E♭", "F", "G", "A♭", "B♭", "C", "D"],
+    "chords": [
+      {"name": "E♭", "quality": "Major", "notes": ["E♭", "G", "B♭"]},
+      {"name": "Fm", "quality": "Minor", "notes": ["F", "A♭", "C"]},
+      {"name": "Gm", "quality": "Minor", "notes": ["G", "B♭", "D"]},
+      {"name": "A♭", "quality": "Major", "notes": ["A♭", "C", "E♭"]},
+      {"name": "B♭", "quality": "Major", "notes": ["B♭", "D", "F"]},
+      {"name": "Cm", "quality": "Minor", "notes": ["C", "E♭", "G"]},
+      {"name": "Ddim", "quality": "Diminished", "notes": ["D", "F", "A♭"]}
+    ]
+  },
+  {
+    "name": "B♭ Major",
+    "key": "B♭",
+    "signature": "2 flats (B♭, E♭)",
+    "notes": ["B♭", "C", "D", "E♭", "F", "G", "A"],
+    "chords": [
+      {"name": "B♭", "quality": "Major", "notes": ["B♭", "D", "F"]},
+      {"name": "Cm", "quality": "Minor", "notes": ["C", "E♭", "G"]},
+      {"name": "Dm", "quality": "Minor", "notes": ["D", "F", "A"]},
+      {"name": "E♭", "quality": "Major", "notes": ["E♭", "G", "B♭"]},
+      {"name": "F", "quality": "Major", "notes": ["F", "A", "C"]},
+      {"name": "Gm", "quality": "Minor", "notes": ["G", "B♭", "D"]},
+      {"name": "Adim", "quality": "Diminished", "notes": ["A", "C", "E♭"]}
+    ]
+  },
+  {
+    "name": "F Major",
+    "key": "F",
+    "signature": "1 flat (B♭)",
+    "notes": ["F", "G", "A", "B♭", "C", "D", "E"],
+    "chords": [
+      {"name": "F", "quality": "Major", "notes": ["F", "A", "C"]},
+      {"name": "Gm", "quality": "Minor", "notes": ["G", "B♭", "D"]},
+      {"name": "Am", "quality": "Minor", "notes": ["A", "C", "E"]},
+      {"name": "B♭", "quality": "Major", "notes": ["B♭", "D", "F"]},
+      {"name": "C", "quality": "Major", "notes": ["C", "E", "G"]},
+      {"name": "Dm", "quality": "Minor", "notes": ["D", "F", "A"]},
+      {"name": "Edim", "quality": "Diminished", "notes": ["E", "G", "B♭"]}
+    ]
+  }
+]

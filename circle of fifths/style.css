@@ -1,0 +1,164 @@
+
+/* Theme tokens keep the Bootstrap layout aligned with the warm ivory and sage design. */
+:root {
+  --ivory: #f6f3eb;
+  --paper: #fffdf7;
+  --sage: #536b50;
+  --sage-light: #e4e9dc;
+  --ink: #292c26;
+  --muted: #77786e;
+  --border: #dedbd0;
+}
+
+/* Global page colors and body typography. */
+body {
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Serif heading for the main interactive feature. */
+.circle-title {
+  margin-bottom: 2rem;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  text-align: center;
+}
+
+/* Serif type for the selected key heading. Bootstrap handles its layout. */
+.section-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+
+/* Gives the circle wrapper a stable height while the JSON loads. */
+.circle-container {
+  min-height: 300px;
+}
+
+/* Custom circle geometry; Bootstrap does not provide this component. */
+.circle-of-fifths {
+  position: relative;
+  width: min(100%, 440px);
+  aspect-ratio: 1;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+}
+
+/* Positions each generated key around the circle. */
+.key-button {
+  position: absolute;
+  width: 18%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+/* Serif key names make the buttons match the page headings. */
+.key-button strong {
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  font-weight: 500;
+}
+
+/* Smaller key-signature text inside each circle button. */
+.key-button small {
+  color: var(--muted);
+  font-size: 0.6rem;
+}
+
+/* Sage hover and active states make the selected key visible. */
+.key-button:hover, .key-button.active {
+  background: var(--sage-light);
+  border-color: #c6d0bd;
+}
+
+.key-button.active strong {
+  color: var(--sage);
+}
+
+/* Badge showing the selected key signature. */
+.signature-badge {
+  padding: 0.5rem 0.75rem;
+  border-radius: 2rem;
+  background: var(--sage-light);
+  color: var(--sage);
+  font-size: 0.75rem;
+}
+
+/* Ivory panel containing the selected scale notes; Bootstrap supplies padding and borders. */
+.notes-panel {
+  background: var(--paper);
+}
+
+/* Circular note tokens; Bootstrap supplies the flex and gap utilities. */
+.note {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  font-size: 0.9rem;
+}
+
+/* Subheading for the keyboard and chord sections. */
+.detail-title {
+  color: var(--muted);
+  font-family: "Playfair Display", serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/* Sizes the selected-key image while Bootstrap centers and borders it. */
+.piano-keyboard {
+  width: 85%;
+}
+
+/* Ivory chord cards; Bootstrap supplies their grid placement, spacing, padding, and borders. */
+.chord-card {
+  height: 100%;
+  background: var(--paper);
+}
+
+/* Chord names use the same serif family as the main headings. */
+.chord-card strong {
+  font-family: "Playfair Display", serif;
+  font-size: 1.25rem;
+}
+
+/* Secondary chord metadata. */
+.chord-degree,
+.chord-quality {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+/* Separates the chord's note description from its title and keeps it readable. */
+.chord-notes {
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+/* Loading and data-fetch error text. */
+.loading-text {
+  color: var(--muted);
+}
+
+@media (max-width: 576px) {
+  /* Reduce headings and panel padding on narrow screens. */
+  .section-heading h2 {
+    font-size: 1.6rem;
+  }
+
+  .key-button small {
+    font-size: 0.5rem;
+  }
+
+}
